@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+ background-color: #F1F4F8;
+}
+.padding{
+    padding-bottom: 90px;
+}
+.megamenu-img{
+    background-image:linear-gradient(rgba(13, 106, 228, 0.8), rgba(13, 106, 228, 0.8)), url(img/meg.jpg);
+    background-size: cover;
+    height: 352px;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    margin-bottom: -9px;
+
+}
+.megamenu-title{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.mega-menu1{
+    width: 650px;
+}
+.mega-menu2,.mega-menu3{
+    width: 400px;
+}
+.btn-top:hover{
+    position: relative;
+    bottom: 2px;
+    box-shadow: 1px 1px 9px #EBECED;
+    transition: all 0.5s ease;
+
+
+}
+.btn-white{
+    background-color: #FFFFFF !important;
+    color: #597CEE;
+    padding: 7px;
+    transition:  all 0.5s ease; 
+}
+.btn-banner{
+    background-color: #E1E7FC;
+    color: #335EEA;
+
+}
+.btn-white:hover{
+    background-color: #FFFFFF !important;
+    color: rgba(4, 60, 243, 0.972);
+    bottom: 2px;
+    position: relative;
+    transition: all 0.5s ease; 
+    box-shadow: 1px 1px 9px #FFFFFF;
+
+
+}
+.megamenu-hover p a{
+    color: #161c2d;
+}
+.megamenu-hover p a:hover{
+
+    color: #228DFF;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    transition: .5s ease;
+    
+}
+.banner_right{
+    background-image: url(img/illustration-2.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 90px 110px;
+}
+
+.two-right{
+
+    perspective: 800px;
+}
+.rotate-img{
+
+   transform:rotateY(-28deg) rotateX(12deg);
+    backface-visibility: hidden;
+    transform-origin: top;
+    
+}
+.border-right{
+    padding-right: 30px;
+    height: 60px;
+    color: #D9E2EF !important;
+}
+/*--------------------Card options---------*/
+.flot{
+    position: relative;
+}
+.cr{
+    position: absolute;
+    right:50px;
+    top:44px;
+    z-index: 0;
+}
+.cl{
+    z-index: 1000;
+}
+
+/*--------------------Card options---------*/
+
+.svg-img{
+    background-image: url(img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 400px 0;
+}
+.svg-main{
+    transform: translateY(-70%);
+}
+
+
+
+/*----------------------Flickity Options Satrts----------*/
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: auto; /* height of carousel */
+   
+  }
+
+  .flickity-button {
+    background: #335EEA;
+  }
+  .flickity-button:hover {
+    background: #335EEA;
+  }
+  
+  .flickity-prev-next-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  /* icon color */
+  .flickity-button-icon {
+    fill: white;
+  }
+  /* position outside */
+  .flickity-prev-next-button.previous {
+    left: 2px;
+   
+  }
+  .flickity-prev-next-button.next {
+    right: 2px;
+  }
+
+
+
+
+
+/*----------------------Flickity Options Ends----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+
+    .mega-menu1{
+        width: 330px;
+    }
+    .mega-menu2,.mega-menu3{
+        width: 330px;
+    }
+  
+}
