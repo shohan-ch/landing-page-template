@@ -6,6 +6,8 @@ Landkit is a Bootstrap 4 template, so you know this website will adapt to all po
 Built with :
 
 - Bootstrap 4
+- javascript
+- jquery
 - Aos.js
 - Typed.js
 - CounterUp.js
